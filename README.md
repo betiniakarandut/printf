@@ -1,7 +1,7 @@
 A team of two project. This project take us deeper on the printf statement in C language. It also promote team collaboration.
 
 # 0x11: C - printf
-For this project we wrote own `printf` function. It is the first group project for [Holberton School]. Our version of `printf` currently handles the following conversion specifiers:
+For this project we wrote our own `printf` function. It is the first group project for [ALX-Holberton School]. Our version of `printf` currently handles the following conversion specifiers:
 
 | Symbol | Operation |
 |--|--|
