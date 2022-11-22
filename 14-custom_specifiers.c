@@ -10,7 +10,7 @@
 mk_buffer rot13_fmt(mk_buffer buffer, va_list args)
 {
 	int i;
-	char *str;
+	char *strn;
 
 	char shift13[52] = {'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w',
 	'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
@@ -25,11 +25,11 @@ mk_buffer rot13_fmt(mk_buffer buffer, va_list args)
 
 	str = va_arg(args, char *);
 
-	while (*str)
+	while (*strn)
 	{
 		for (i = 0; letters[i]; i++)
 		{
-			if (*str == letters[i])
+			if (*strn == letters[i])
 			{
 				*buffer.box = shift13[i];
 				break;
