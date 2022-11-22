@@ -1,7 +1,7 @@
 A team of two project. This project take us deeper on the printf statement in C language. It also promote team collaboration.
 
-# 0x10: C - printf
-For this project we wrote own `printf` function. It is the first group project for [Holberton School](https://www.holbertonschool.com/ "Holberton School"). Our version of `printf` currently handles the following conversion specifiers:
+# 0x11: C - printf
+For this project we wrote own `printf` function. It is the first group project for [Holberton School]. Our version of `printf` currently handles the following conversion specifiers:
 
 | Symbol | Operation |
 |--|--|
@@ -18,51 +18,11 @@ For this project we wrote own `printf` function. It is the first group project f
 ## Getting Started
 Quick start guide to using our version of `printf`.
 
-### 1. Install
-Run the following command:
-```
-$ git clone https://github.com/wescottsharples/printf.git
-```
-
-### 2. BYOM
-*Bring your own main file.* To use our `printf` you will need a `main.c` file to compile it with. Go ahead and try the following:
-```
-int main(void)
-{
-	_printf("%c\n", 'H');
-	_printf("%s\n", "Hello");
-	_printf("%d\n", 42);
-	_printf("%i\n", -42);
-	_printf("%r\n", "Hello");
-	_printf("%R\n", "Hello");
-	return (0);
-}
-```
-
-### 3. Compile
-Use the following command to compile
-```
-$ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c
-```
-
-### 4. Pat yourself on the back
-Going along with our sample code above, you would hopefully see this output:
-```
-$ ./a.out
-H
-Hello
-42
--42
-olleH
-Uryyb
-$
-```
-
 ## Environment Information
 | Aspect | Version |
 |--|--|
 | **Language** | C |
-| **Operating System** | Ubuntu 14.04 LTS |
+| **Operating System** | Ubuntu 20.04 LTS |
 | **Compiler** | `gcc 4.8.4` |
 | **Style Guidelines** | [`Betty`](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl "betty-style.pl") |
 
@@ -182,7 +142,7 @@ All the above options work well together.
 
 ##
 ### Authors:
-- https://github.com/betiniakarandut.github.io
-and https://github.com/fredmann1993.github.io
+- https://github.com/betiniakarandut
+and https://github.com/fredmann1993
 
 
