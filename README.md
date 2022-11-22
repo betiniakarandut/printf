@@ -1,5 +1,8 @@
 A team of two project. This project take us deeper on the printf statement in C language. It also promote team collaboration.
 
+
+It is supposed to test our knowledge of printf: custom, non custom formats and flags.
+
 # 0x11: C - printf
 For this project we wrote our own `printf` function. It is the first group project for [ALX-Holberton School]. Our version of `printf` currently handles the following conversion specifiers:
 
