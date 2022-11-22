@@ -13,8 +13,8 @@
  */
 int print_hex(va_list l, flags_t *f)
 {
-	unsigned int num = va_arg(l, unsigned int);
-	char *str = convert(num, 16, 1);
+	unsigned int numb = va_arg(l, unsigned int);
+	char *str = convert(numb, 16, 1);
 	int count = 0;
 
 	if (f->hash == 1 && str[0] != '0')
