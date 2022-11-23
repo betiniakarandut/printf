@@ -1,4 +1,6 @@
 #include "main.h"
+#include <limits.h>
+#include <stdio.h>
 
 /**
  * _printf - produces output according to a format
@@ -44,4 +46,5 @@ int _printf(const char *format, ...)
 	_putchar(-1);
 	va_end(arguments);
 	return (count);
+
 }
